@@ -4,7 +4,7 @@ A modern, responsive portfolio built with **Next.js**, **React**, and styled usi
 
 ## 🌐 Live Demo
 
-Check it out here: [obs-new-portfolio.netlify.app](https://obs-new-portfolio.netlify.app/)
+Check it out here: [obs-portfolio-md.netlify.app](https://obs-portfolio-md.netlify.app/)
 
 ---
 
