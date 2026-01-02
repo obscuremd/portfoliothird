@@ -16,6 +16,7 @@ import { baseURL, routes } from "@/app/resources";
 import { home, about, person, newsletter } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
+import { HiDocument } from "react-icons/hi2";
 
 export async function generateMetadata() {
   const title = home.title;
@@ -99,25 +100,42 @@ export default function Home() {
             </Text>
           </RevealFx>
           <RevealFx translateY="12" delay={0.4} horizontal="start">
-            <Button
-              id="about"
-              data-border="rounded"
-              href="/about"
-              variant="secondary"
-              size="m"
-              arrowIcon
-            >
-              <Flex gap="8" vertical="center">
-                {about.avatar.display && (
-                  <Avatar
-                    style={{ marginLeft: "-0.75rem", marginRight: "0.25rem" }}
-                    src={person.avatar}
-                    size="m"
-                  />
-                )}
-                {about.title}
-              </Flex>
-            </Button>
+            <Flex gap="8" vertical="center">
+              <Button
+                id="about"
+                data-border="rounded"
+                href="/about"
+                variant="secondary"
+                size="m"
+                arrowIcon
+              >
+                <Flex gap="8" vertical="center">
+                  {about.avatar.display && (
+                    <Avatar
+                      style={{ marginLeft: "-0.75rem", marginRight: "0.25rem" }}
+                      src={person.avatar}
+                      size="m"
+                    />
+                  )}
+                  {about.title}
+                </Flex>
+              </Button>
+              <Button
+                id="resume"
+                data-border="rounded"
+                href="/cv.pdf" // Link to your CV in the public folder
+                variant="secondary"
+                size="m"
+                arrowIcon
+                target="_blank" // Opens in a new tab
+                rel="noopener noreferrer" // Security best practice
+              >
+                <Flex gap="8" vertical="center">
+                  <HiDocument />
+                  Resume
+                </Flex>
+              </Button>
+            </Flex>
           </RevealFx>
         </Column>
       </Column>
