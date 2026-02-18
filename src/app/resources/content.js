@@ -147,7 +147,7 @@ const about = {
     institutions: [
       {
         name: "Bells University of Technology",
-        description: <>Studied Management Science.</>,
+        description: <>Studied Computer Science.</>,
       },
       {
         name: "Nupat Technologies",
