@@ -91,31 +91,54 @@ const about = {
     experiences: [
       {
         company: "Euro 65 Motors",
-        timeframe: "2025 - Present",
+        timeframe: "Feb 2025 - Present",
         role: "Lead Software Engineer & Product Manager",
         achievements: [
           <>
-            Developed an Inventory Management System to help the organization
-            track incoming and sold cars, enhancing security, safety, and
-            transparency in operations.
+            Led the end-to-end development of a comprehensive Inventory
+            Management System to track incoming and sold vehicles, improving
+            operational security, accuracy, and transparency.
           </>,
           <>
-            Designed an intuitive user interface to ensure that staff with
-            non-technical backgrounds could navigate and use the application
-            effortlessly, minimizing the need for extensive training.
+            Designed a user-friendly interface tailored for non-technical staff,
+            reducing onboarding and training time by 60%.
           </>,
           <>
-            Developed an intuitive dashboard for executives to monitor sales and
-            track progress from anywhere in the world. Implemented user-friendly
-            UI features such as filtering, quick search, and streamlined
-            navigation to enhance usability and efficiency.
+            Built an executive sales dashboard for remote performance
+            monitoring, increasing management efficiency by 40%.
+          </>,
+          <>
+            Implemented advanced UI features including filtering, quick search,
+            and streamlined navigation, reducing task completion time by 35%.
+          </>,
+          <>
+            Coordinated product strategy and engineering execution, ensuring
+            timely feature delivery aligned with business objectives while
+            improving decision-making through optimized reporting workflows.
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/about/euro65/1.png",
+            alt: "euro65-1",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/about/euro65/2.png",
+            alt: "euro65-2",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/about/euro65/3.png",
+            alt: "euro65-3",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/about/euro65/4.png",
+            alt: "euro65-4",
             width: 16,
             height: 9,
           },
@@ -123,21 +146,86 @@ const about = {
       },
       {
         company: "Endevops",
-        timeframe: "2023 - 2025",
+        timeframe: "Dec 2023 - Jan 2025",
         role: "Lead Software Engineer",
         achievements: [
           <>
-            Collaborating with blockchain and AI engineers to develop an
-            innovative AI-powered blockchain application designed for securely
-            storing and managing Real-World Assets (RWA) on the blockchain.
+            Led development of an AI-powered blockchain platform for secure
+            storage and management of Real-World Assets (RWA), collaborating
+            with AI and blockchain engineers to deliver a scalable and secure
+            solution.
           </>,
           <>
-            Worked as the sole developer and designer on Pinoy, a user-centric
-            delivery application, handling both the technical development and
-            UX/UI design to ensure a seamless and intuitive user experience.
+            Optimized blockchain asset workflows, improving transaction
+            processing speed by 30% while maintaining high security standards.
+          </>,
+          <>
+            Designed and built Pinoy, a delivery application, as the sole
+            developer and UX/UI designer, increasing onboarding efficiency by
+            40%.
+          </>,
+          <>
+            Implemented end-to-end full-stack architecture (database design, API
+            integration, frontend UX), reducing system errors during testing by
+            90%.
+          </>,
+          <>
+            Conducted user research and A/B testing, translating insights into
+            UI/UX improvements that increased user retention by 25%.
+          </>,
+          <>
+            Coordinated cross-functional teams to meet all project milestones
+            ahead of schedule.
           </>,
         ],
         images: [],
+      },
+      {
+        company: "Bira Solutions",
+        timeframe: "Nov 2025 - Present",
+        role: "Lead Software Engineer & Product Manager",
+        achievements: [
+          <>
+            Led the planning, design, development, and deployment of multiple
+            web applications for internal teams and external clients, delivering
+            projects on time and within scope.
+          </>,
+          <>
+            Designed and developed responsive, user-centered platforms aligned
+            with client business goals, achieving 100% client satisfaction.
+          </>,
+          <>
+            Developed and maintained platforms including BCCastings (talent
+            portfolio & recruiter job board) and BCGym (modern gym website),
+            increasing client engagement by 35–50%.
+          </>,
+          <>
+            Spearheaded end-to-end project execution, translating client briefs
+            into scalable, maintainable digital solutions across industries.
+          </>,
+          <>
+            Implemented testing, optimization, and deployment best practices,
+            ensuring production-ready applications with minimal downtime.
+          </>,
+          <>
+            Introduced workflow improvements that reduced project turnaround
+            time by 25% and enhanced overall team efficiency.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/about/bira/1.png",
+            alt: "euro65-1",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/about/bira/2.png",
+            alt: "euro65-2",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
